@@ -1,0 +1,28 @@
+body {
+  margin: 60px;
+  font-family: serif;
+  font-size: 24px;
+  background: rgb(186, 189, 187);
+}
+
+.column-layout {
+  max-width: 1200px;
+  background-color: rgb(221, 238, 221);
+  font-size: medium;
+  margin: 50px auto 0 auto;
+  line-height: 1.65;
+  padding: 80px;
+  display: flex;
+  column-gap: 10px;
+}
+
+.form-row-left {
+  background-color: white;
+  font-size: 24px;
+}
+.excerpt {
+  font-size: 24px;
+}
+
+
+@media screen and (max-width: 980px);
